@@ -1,12 +1,9 @@
 #Get user input
-monthly_income_str = input("Enter your monthly income: " )
-monthly_expenses_str = input("Enter your total monthly expenses: " )
-
-monthly_income_int = int(monthly_income_str)
-monthly_expenses_int = int(monthly_expenses_str)
+monthly_income = float(input("Enter your monthly income: "))
+monthly_expenses = float(input("Enter your total monthly expenses: "))
 
 #Calculations
-monthly_savings = monthly_income_int - monthly_expenses_int
+monthly_savings = monthly_income - monthly_expenses
 
 # Calculate Projected Annual Savings
 projected_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
