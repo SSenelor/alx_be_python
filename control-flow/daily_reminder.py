@@ -1,6 +1,6 @@
-task = str(input("Input a task description: "))
-priority = str(input("What is the priority (high, medium, low): ")).lower()
-time_bound = str(input("Task is time-bound (yes or no): ")).lower()
+task = str(input("Enter you task: "))
+priority = str(input("Priority (high, medium, low): ")).lower()
+time_bound = str(input("Is it time-bound (yes or no): ")).lower()
 
 print("Reminder: ", end = "")
 match priority :
