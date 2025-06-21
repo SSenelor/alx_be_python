@@ -43,4 +43,4 @@ class Library:
 
     def list_books(self):
         for book in self.books:
-            print(book)  # This now uses __str__ from each class
+            print(book)
